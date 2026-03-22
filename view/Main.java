@@ -11,6 +11,7 @@ public class Main {
             System.out.println("2. Registrar Pasajero");
             System.out.println("3. Vender Ticket");
             System.out.println("4. Salir");
+            System.out.println("5. Reportes");
 
             opcion = sc.nextInt();
 
@@ -24,8 +25,13 @@ public class Main {
                 case 3:
                     System.out.println("Vendiendo ticket...");
                     break;
+                case 4:
+                    System.out.println("1. Tickets por fecha");
+                    System.out.println("2. Tickets por vehículo");
+                    System.out.println("3. Tickets por pasajero");
+                    System.out.println("4. Resumen del día");    
             }
-        } while (opcion != 4);
+        } while (opcion != 5);
 
         sc.close();
     }

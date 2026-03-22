@@ -18,4 +18,14 @@ public class Ticket implements Imprimible, Calculable {
     public void imprimirDetalle() {
         System.out.println("Ticket: " + calcularTotal());
     }
+
+    public Object getFecha() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getFecha'");
+    }
+
+    public Object getPasajero() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getPasajero'");
+    }
 }

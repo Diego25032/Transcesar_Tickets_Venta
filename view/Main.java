@@ -26,5 +26,7 @@ public class Main {
                     break;
             }
         } while (opcion != 4);
+
+        sc.close();
     }
 }
